@@ -1,0 +1,323 @@
+*{
+    padding: 5px;
+    margin: 5px;
+
+    
+}
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+    
+    
+.icono{
+    width: 20px;
+    float: left;
+    padding: 5px;
+}
+
+
+ 
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header .nav-link{
+    list-style: none;
+    
+}
+.header .nav-link a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn{
+ 
+       background-color: black;
+       color: aliceblue;
+       text-decoration: none;
+        border-radius: 5px;
+        justify-content: space-between;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagen{
+    height: 70px;
+    width: 100px;
+    justify-content:left;
+   
+
+}
+.lorem{
+position: absolute;
+top: 250px;
+bottom: 0;
+left: 15px;
+right:0px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+
+
+}
+.loren1{
+    position: absolute;
+    top: 280px;
+    bottom: 0;
+    right: 0;
+    left: 15px;
+
+}
+.lorem,.loren1{
+    padding:60px;
+}
+.hijo1{
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 700px;
+    right:0px;
+    padding: 100px;
+    height: 200px;
+    transform: rotate(-45deg);
+}
+
+.padre1{
+ display:flex;
+   justify-content: center;
+
+   
+}
+
+
+    
+.aumento{
+    position: relative;
+    top: 100px;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    font-size: 50px;
+    
+
+}
+
+
+.dos{
+    position: relative;
+    top: 10px;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    font-size: 15px;
+    background-color: black;
+    color: gainsboro;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.tres{
+    position: relative;
+    top: 10px;
+    bottom: 0;
+    left: 30px;
+    right: 0;
+    font-size: 15px;
+    
+}
+.pajaro{
+    position: relative;
+    top: 10px;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    font-size: 15px;
+
+}
+.flechadoble{
+    
+    position: relative;
+    top: 100px;
+    left: 400px;
+    right:0 ;
+    width: 100px;
+    
+    
+}
+
+
+    .uno{
+        background-color: black;
+        color: gainsboro;
+        text-decoration: none;
+        border-radius: 5px;
+        justify-content: right;
+        padding: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+       
+    
+    }
+    .imagen{
+        width: 80px;
+        justify-content:left;
+ 
+     }
+     h2{ 
+         justify-content: center;
+     }
+    .contenedor2{
+        display: flex;
+        position: absolute;
+    }
+
+    
+    .primertitulo{
+        font-family: 'Cormorant Garamond', serif;
+        font-family: 'Itim', cursive;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Satisfy', cursive;
+        font-size: 15px;
+    
+    }
+    
+    .economia{
+    position: relative;
+    top: 10px;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    font-size: 40px;
+    display: inline-table;
+    justify-content: space-between;
+    text-decoration: none;
+       
+        
+    }
+    .icono1{
+        width: 130px;
+        position: relative;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+    }
+    .icono2{
+        width: 130px;
+        position: relative;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+    }
+
+
+    .icono3{
+
+        width: 100px;
+        position: relative;
+        top:2px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+    }
+
+       
+    .tamaño,.tamaño1, .tamaño2{
+        
+        text-decoration: none;
+        justify-content:space-between;
+        display: inline-flex;
+        color: black;
+        width: 5px 5px 5px 5px;
+        height: 5px 5px 5px 5px;
+        
+    }
+    .hijo{
+        position: absolute;
+        left: 700px;
+        height: 100px;
+        
+    }
+    .padre{
+        position: absolute;
+        width: 150px;
+    
+    
+    }
+
+
+
+.empresas{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 10px;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    padding: 10px 10px;
+    background-color: dimgrey;
+    width: 650px;
+    height: 60px;
+    
+   
+   
+}
+.empresa1{
+   
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    width: 100px;
+    border-right: 5px solid white;
+    justify-items: center;
+    
+
+
+    
+}
+
+.empresa2{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left:  0px;
+    right: 0;
+    width: 100px;
+    border-right: 5px solid white;
+    justify-items: center;
+    
+}
+.empresa3{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    width: 150px;
+    border-right: 5px solid white;
+    justify-items: center;
+   
+   
+}
+.empresa4{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    width: 100px;
+    justify-items: center;
+}
